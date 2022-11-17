@@ -1,0 +1,136 @@
+.p_header, .p_{
+    margin: 0;
+    font-size: 1.4em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+    font-size: 1.4em;
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+}
+
+li{ 
+    list-style-type: none;
+    font-size: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+li:hover{
+    list-style-type:none;
+    color:rgb(255, 255, 255);
+    font-size: 1.5em;
+
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
+}
+
+
+.menuInvisible{
+    display: none;
+}
+
+#FirstChildInsert{
+    display: flex;
+    justify-content: space-around;
+    /*justify-content: center;*/
+}
+
+.blockSubMenu{
+    width: 30%;
+    height: 61px;
+    background-color:rgb(255, 255, 255);
+    font-size: 1.2em;
+    font-family: monospace;
+    text-align: center;
+    /*width: 30%;	
+    height: 61px;	
+    background-color: #FFFFFF;	
+    position: relative;	
+    box-shadow: 0px 5px 18px -4px #C1C1C1;
+    text-align: center;
+    border-radius: 5px;*/
+}
+
+.blockSubMenuInput{
+    width:100px;
+    color:black;
+    font-size: 1em;
+    font-family: monospace;
+    border-radius: 10px;
+    border-color:rgba(245, 245, 245, 0.897); ;
+}
+
+#poltora{
+    display: flex;
+    justify-content: center;
+    
+}
+#SecondChildInsert{
+    width: 302px;
+    height: 303px;
+    background-color: rgb(255, 255, 255);
+    
+
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    
+  
+}
+
+.polediv{
+    width : 100px;
+    height: 100px;
+    margin: 0 auto;
+    line-height: 100px; 
+    font-family: monospace;
+    background-color: rgb(224, 221, 221);
+    color:rgb(5, 0, 0);
+    border-radius: 10%;
+    font-size:50px;
+    text-align: center;
+}
+.msgBlock{
+    /*background-color: rgb(10, 194, 10);
+    color:rgb(0, 0, 0);
+    position: absolute;
+    width:10%;
+    height:60px; 
+    z-index:99999999;
+    text-align:center;
+    border-radius: 5px;*/
+
+    width: 20%;	
+    height: 50px;	
+    background-color: #FFFFFF;	
+    /*position: relative;	*/
+    box-shadow: 0px 5px 18px -4px #C1C1C1;
+    text-align: center;
+    border-radius: 5px;
+    position: absolute;
+    z-index:99999999;
+    /*top:16em; 
+    left: 22em;*/
+}
+.msgBlock button {
+    background: none;
+    border: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 1em;
+    color: rgb(143, 143, 143);
+}
+/*.players:hover{
+    visibility: hidden;
+    display: none; 
+}*/
